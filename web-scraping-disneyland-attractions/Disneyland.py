@@ -209,10 +209,3 @@ plt.xlabel('Guests in Line')
 plt.legend(title = 'Wait Time (min)')
 plt.show()
 
-
-
-# by_capacity = (sorted.sort_values(by = 'Capacity', ascending=False))
-
-# plt.figure(7, figsize = (12,7))
-# sns.barplot(y = by_capacity[-10:]['Attraction'], x = by_capacity[-10:]['People_in_line'], color= 'cornflowerblue')
-# plt.show()

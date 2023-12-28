@@ -180,9 +180,10 @@ plt.show()
 plt.figure(4)
 graph2 = sns.lmplot(data = cleaned_data, x = 'People_in_line', y = 'Wait', hue = 'Cap', fit_reg=False, legend = False)
 sns.regplot(data = cleaned_data, x = people, y = wait, ax=graph2.axes[0, 0], scatter=False)
-for ride in rides.iloc[28:]:
+for ride in rides.iloc[28:32]:
     plt.text(cleaned_data[rides == ride]['People_in_line']+10, cleaned_data[rides == ride]['Wait'], ride, horizontalalignment='left', rotation = 0, fontsize='6', color='black', weight='semibold')
-sns.despine(right = True)
+for ride in rides.iloc[32:]:
+    plt.text(cleaned_data[rides == ride]['People_in_line']+10, cleaned_data[rides == ride]['Wait']-2, ride, horizontalalignment='left', rotation = 0, fontsize='6', color='black', weight='semibold')sns.despine(right = True)
 plt.xlabel('Guests in Line')
 plt.ylabel('Wait Time (min)')
 plt.title('Attractions with Highest Demand')

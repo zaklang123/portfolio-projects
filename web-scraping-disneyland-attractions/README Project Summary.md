@@ -43,7 +43,7 @@ It seems as though looking at attraction popularity through the lens of how many
 As seen above, Radiator Springs Racers is the most popular attraction at the Disneyland Resort. Space Mountain, Guardians of the Galaxy and Toy Story Mania might seem popular based on wait time, but Indiana Jones and Haunted Mansion have a greater popularity when guests in line is taken as the popularity measure. (note that Star War's Galaxy's Edge is not included in this analysis)
 
 |Disneyland top 5 attractions based on wait times:                                        |Disneyland top 5 attractions based on guests in line:|
-------------------------------------------------------------------------------------------|-----------------------------------------------------|
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------|
 |1: Space Mountain                                                                        |1: Indiana Jones                                     |
 |2: Indiana Jones                                                                         |2: Space Mountain                                    |
 |3: Splash Mountain                                                                       |3: Haunted Mansion                                   |

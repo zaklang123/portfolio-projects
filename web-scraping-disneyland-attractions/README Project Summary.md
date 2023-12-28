@@ -14,7 +14,7 @@ The purpose of this project is to use web scraping capabilites from Beautiful So
 
 ![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/80cd2d4c-7b55-44a2-8b94-d6129d128f52)
 
+![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/f87b3e5e-59c6-49ec-9a9d-6588eea654ee)
 
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/bd90a784-10d0-4e8e-a3d0-9736a68c3906)
 
 ![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/5999906e-9d67-43b6-9ee4-234efdd7fc7b)

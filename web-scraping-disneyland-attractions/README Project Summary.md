@@ -28,7 +28,7 @@ As seen in the above figures, some attractions have very long wait times, but al
 
 ![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/5999906e-9d67-43b6-9ee4-234efdd7fc7b)
 
-#Findings: 
+# Findings:
 
 It seems as though looking at attraction popularity through the lens of how many guest are in a queue gives a different picture than looking at it purely based on largest wait time. 
 
@@ -50,7 +50,7 @@ Disneyland top 5 attractions based on wait times:                               
 
 If only attractions at Disneyland are analyzed, Splash Mountain and It's A Small World knock out Matterhorn Bobsleds and Star Tours from the top 5. 
 
-#Conclusion:
+# Conclusion:
 
 Finding the most popular attractions at Disneyland can be more complex than it seems. Further measuring any subjective value will be difficult and depend on the analyst's choice of indicators. Some might say that It's A Small World is their least favorite attraction at Disneyland, but taking into account the number of guests in line, it comes out in the top 5. 
 

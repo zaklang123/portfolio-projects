@@ -26,7 +26,8 @@ As seen in the above figures, some attractions have very long wait times, but al
 ![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/f87b3e5e-59c6-49ec-9a9d-6588eea654ee)
 
 
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/5999906e-9d67-43b6-9ee4-234efdd7fc7b)
+![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/2639af3d-4b46-4253-85a7-d52ca23bc7b5)
+
 
 # Findings:
 

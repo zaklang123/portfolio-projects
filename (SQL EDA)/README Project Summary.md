@@ -10,14 +10,14 @@ First the relational database was viewed and some questions were developed to he
 
 <img width="746" alt="bike_relational_database" src="https://github.com/zaklang123/portfolio-projects/assets/79182085/64fce57c-eb82-4c79-821f-de6b4d789d77">
 
-The questions that were developed from this image were as follows:
+The questions that were developed from this image were as follows:  
 
-1: Where are customers buying products from?
-2: What is the most commonly purchased product?
-3: What email providers are the most popular among customers?
-4: What are the most and least expensive products sold?
-5: Which store has the greatest revenue and are store employees allocated efficiently?
-6: What brand contributes the most to total revenue?
+1: Where are customers buying products from?  
+2: What is the most commonly purchased product?  
+3: What email providers are the most popular among customers?  
+4: What are the most and least expensive products sold?  
+5: Which store has the greatest revenue and are store employees allocated efficiently?  
+6: What brand contributes the most to total revenue?  
 
 With these questions in hand it was time for analysis.
 

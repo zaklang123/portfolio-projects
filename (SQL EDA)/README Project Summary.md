@@ -19,7 +19,7 @@ The questions that were developed from this image were as follows:
 5: Which store has the greatest revenue and are store employees allocated efficiently?  
 6: What brand contributes the most to total revenue?  
 
-With these questions in hand it was time for analysis.
+With these questions in hand, it was time for analysis.
 
 
 # Analysis: 

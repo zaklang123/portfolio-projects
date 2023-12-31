@@ -12,59 +12,57 @@ First the relational database was viewed and some questions were developed to he
 
 The questions that were developed from this image were as follows:
 
-1: 
+1: Where are customers buying products from?
+2: What is the most commonly purchased product?
+3: What email providers are the most popular among customers?
+4: What are the most and least expensive products sold?
+5: Which store has the greatest revenue and are store employees allocated efficiently?
+6: What brand contributes the most to total revenue?
 
-# Visualization:
+With these questions in hand it was time for analysis.
 
-Figures were created to help visualize the attraction's wait time versus their number of guests in the queue. A linear regression was run on the data and it was found to be 18.9+0.026(number of guests in line) = approximate wait time. Therefore, every 1000 guests in line has an approximate affect of 26 minutes added to the wait time. The attractions were then color coded as whether they handled crowds better or worse than this. The plot was split into 3 different graphs to assist with visualizing all the data.
-
-
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/9ddce24a-15c3-4646-b213-a5a84b62cae6)
-
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/13aac9ad-ff5a-455c-965f-b226924b4f35)
-
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/d4a8b5cb-6eef-4752-83f0-f866cf63df53)
 
 # Analysis: 
 
-As seen in the above figures, some attractions have very long wait times, but also handle crowds better whereas others don't handle crowds as well. The goal of this project is to determine the most popular attractions. Some might say that popularity should be determined by how long people are willing to wait in line for an attraction. And while this might be one way to determine popularity that takes into account guest's value of time, another way to look at popularity is how many guests are willing to wait in line for an attraction. This can also be thought of as the number of guests in line for a particular attraction. 
+1: Where are customers buying products from?
 
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/f87b3e5e-59c6-49ec-9a9d-6588eea654ee)
+Most customers buy products in New York (71%) followed by California (20%) and Texas (10%). It seems as though there are only customers in these states.
+
+2: What is the most commonly purchased product?
+
+The most commonly bought product is a Surly Ice Cream Trucj Frameset - 2016 (with 167 of them bought). The most commonly bought product per order is also a Surly Ice Cream Trucj Frameset - 2016 (with 110 of them bought). There are 32 products that are only sold once.
+
+3: What email providers are the most popular among customers?
+
+The bike store's customers use 5 email providers Yahoo, Gmail, MSN, AOL, and Hotmail. They use them in approximately the same proportion. 
+
+4: What are the most and least expensive products sold?
+
+The most expensive product is Trek Domane SLR 9 Disc - 2018 with a list price of $11999.99 and a total of 5 sold. The least expensive product sold is Strider Classic 12 Balance Bike - 2018 with a list price of $89.99 and a total of 11 sold.
+
+5: Which store has the greatest revenue and are store employees allocated efficiently?
+
+The store in Baldwin, NY earns 63% of the revenue. Whereas, Santa Cruz, CA and Rowlett, TX earn 26% and 10% of the revenue respectively. The employees are allocated in an approximately even fashion with 3 in NY, 3 in TX, and 4 in CA.
+
+6: What brand contributes the most to total revenue?
+
+Trek represents 59.8% of the total revenue with $5 million sold. Strider represents 0.1% of the total revenue with $5000 sold.
 
 
-![image](https://github.com/zaklang123/portfolio-projects/assets/79182085/2639af3d-4b46-4253-85a7-d52ca23bc7b5)
+# Key Findings:
 
+- Greater than 70% of customers make purchases at the New York store and it is responsible for 63% of total revenue. 
+- Surly Ice Cream Trucj Frameset - 2016 is the most sold product. 
+- There are 32 products only sold once.
+- Trek represents 59.8% of the total revenue. Strider represents 0.1% of the total revenue.
 
-# Findings:
-
-It seems as though looking at attraction popularity through the lens of how many guest are in a queue gives a different picture than looking at it purely based on largest wait time. 
-
-|The top 5 at the Disneyland Resort attractions based on wait time:                         |The top 5 at the Disneyland Resort attractions based on guests in line: |
-|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-|1: Radiator Springs Racers                                                                 |1: Radiator Springs Racers                                              |
-|2: Space Mountain                                                                          |2: Indiana Jones                                                        |
-|3: Guardians of the Galaxy                                                                 |3: Space Mountain                                                       |
-|4: Indiana Jones                                                                           |4: Haunted Mansion                                                      |
-|5: Toy Story Mania                                                                         |5: Guardians of the Galaxy                                              |
- 
-As seen above, Radiator Springs Racers is the most popular attraction at the Disneyland Resort. Space Mountain, Guardians of the Galaxy and Toy Story Mania might seem popular based on wait time, but Indiana Jones and Haunted Mansion have a greater popularity when guests in line is taken as the popularity measure. (note that Star War's Galaxy's Edge is not included in this analysis)
-
-|Disneyland top 5 attractions based on wait times:                                        |Disneyland top 5 attractions based on guests in line:|
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------|
-|1: Space Mountain                                                                        |1: Indiana Jones                                     |
-|2: Indiana Jones                                                                         |2: Space Mountain                                    |
-|3: Splash Mountain                                                                       |3: Haunted Mansion                                   |
-|4: Matterhorn Bobsleds                                                                   |4: Splash Mountain                                   |
-|5: Star Tours                                                                            |5: It's A Small World                                |
-
-If only attractions at Disneyland are analyzed, Splash Mountain and It's A Small World knock out Matterhorn Bobsleds and Star Tours from the top 5. 
 
 # Conclusion:
 
-Finding the most popular attractions at Disneyland can be more complex than it seems. Further measuring any subjective value will be difficult and depend on the analyst's choice of indicators. Some might say that It's A Small World is their least favorite attraction at Disneyland, but taking into account the number of guests in line, it comes out in the top 5. 
+The Findings suggest that Baldwin, New York might have the greatest market for this type of bike store. Further, it might be useful to explore opening another store near Baldwin, New York. It is important to maintain inventory of the Surly Ice Cream Trucj Frameset - 2016 since it is the most common purchase. It might be worthwhile to look into removing some of the 32 products that were only sold once and removing Strider as a brand that is sold. 
 
-#Further Exploration:
+# Further Exploration:
 
-There might be many different ways to measure the popularity of an attraction. In this analysis one was chosen to focus on, but the answer to "What are the most popular attractions?" will likely change based on the measurement. In the future, one might want to explore number of times mentioned, satisfaction level or other metrics when coming to a conclusion on this question.
+Exploration of the 32 products that were only sold once to see if they correspond to a demographic that we don't have much alternatives for, or if they are products we might move from our stores to create more space for other inventory would be useful. Another possible future analysis could be seeing what attributes a lower number of customers at the Texas and California stores. Maybe there is something that can be done to increase purchases here. 
 
 
